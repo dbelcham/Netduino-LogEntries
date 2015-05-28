@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Igloocoder.MF.LogEntries</id>
+        <version>0.0.1</version>
+        <title>Igloocoder Micro Framework LogEntries</title>
+        <authors>Donald Belcham</authors>
+        <owners>Donald Belcham</owners>
+        <licenseUrl>https://github.com/dbelcham/Netduino-LogEntries/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/dbelcham/Netduino-LogEntries</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A Micro Framework implementation of an adapter to send data to logentries.com</description>
+        <language>en-CA</language>
+        <dependencies>
+            <dependency id="Igloocoder.MF.TcpClient" version="0.0.4" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="src\bin\Release\be\Igloocoder.MF.LogEntries.dll" target="lib\be\Igloocoder.MF.LogEntries.dll" />
+        <file src="src\bin\Release\be\Igloocoder.MF.LogEntries.pdb" target="lib\be\Igloocoder.MF.LogEntries.pdb" />
+        <file src="src\bin\Release\be\Igloocoder.MF.LogEntries.pdbx" target="lib\be\Igloocoder.MF.LogEntries.pdbx" />
+        <file src="src\bin\Release\be\Igloocoder.MF.LogEntries.pe" target="lib\be\Igloocoder.MF.LogEntries.pe" />
+        <file src="src\bin\Release\be\Igloocoder.MF.TcpClient.pdbx" target="lib\be\Igloocoder.MF.TcpClient.pdbx" />
+        <file src="src\bin\Release\be\Igloocoder.MF.TcpClient.pe" target="lib\be\Igloocoder.MF.TcpClient.pe" />
+        <file src="src\bin\Release\le\Igloocoder.MF.LogEntries.dll" target="lib\le\Igloocoder.MF.LogEntries.dll" />
+        <file src="src\bin\Release\le\Igloocoder.MF.LogEntries.pdb" target="lib\le\Igloocoder.MF.LogEntries.pdb" />
+        <file src="src\bin\Release\le\Igloocoder.MF.LogEntries.pdbx" target="lib\le\Igloocoder.MF.LogEntries.pdbx" />
+        <file src="src\bin\Release\le\Igloocoder.MF.LogEntries.pe" target="lib\le\Igloocoder.MF.LogEntries.pe" />
+        <file src="src\bin\Release\le\Igloocoder.MF.TcpClient.pdbx" target="lib\le\Igloocoder.MF.TcpClient.pdbx" />
+        <file src="src\bin\Release\le\Igloocoder.MF.TcpClient.pe" target="lib\le\Igloocoder.MF.TcpClient.pe" />
+        <file src="src\bin\Release\Igloocoder.MF.LogEntries.dll" target="lib\Igloocoder.MF.LogEntries.dll" />
+    </files>
+</package>

@@ -2,15 +2,15 @@
 using System.Net;
 using System.Text;
 
-namespace Netduino.Contrib.LogEntries
+namespace Igloocoder.MF.LogEntries
 {
     public class LogEntries
     {
         private static string _token;
         private static LogEntries _instance;
-        private IPHostEntry _ipHostEntry;
+        private readonly IPHostEntry _ipHostEntry;
 
-        private Hashtable _logLevelText = new Hashtable
+        private readonly Hashtable _logLevelText = new Hashtable
         {
             {LogLevel.Debug, "Debug"},
             {LogLevel.Info, "Info"},

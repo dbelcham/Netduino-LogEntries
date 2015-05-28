@@ -1,4 +1,4 @@
-﻿namespace Netduino.Contrib.LogEntries
+﻿namespace Igloocoder.MF.LogEntries
 {
     public enum LogLevel
     {
